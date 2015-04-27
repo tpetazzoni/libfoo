@@ -11,3 +11,5 @@ bin_PROGRAMS = libfoo-example1
 libfoo_example1_SOURCES = examples/example1.c
 libfoo_example1_LDADD = libfoo.la
 libfoo_example1_CPPFLAGS = -I$(top_srcdir)/src
+
+EXTRA_DIST = README.md LICENSE
